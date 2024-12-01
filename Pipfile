@@ -4,17 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pandas = "*"
-seaborn = "*"
-scikit-learn = "*"
-matplotlib = "*"
-scipy = "*"
-ipywidgets = "*"
-ipykernel = "*"
-optuna = "*"
-streamlit = "*"
 
 [dev-packages]
+ipykernel = "*"
 
 [requires]
 python_version = "3.11"
